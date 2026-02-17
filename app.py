@@ -9,7 +9,8 @@ from sklearn.naive_bayes import MultinomialNB
 nltk.download('stopwords')
 
 # Load dataset
-df = pd.read_csv("SMSSpamCollection", sep='\t', names=["label", "message"])
+url = "https://raw.githubusercontent.com/justmarkham/pycon-2016-tutorial/master/data/sms.tsv"
+df = pd.read_csv(url, sep='\t', names=["label", "message"])
 df['label'] = df['label'].map({'ham': 0, 'spam': 1})
 
 # Preprocess function
@@ -45,3 +46,4 @@ if st.button("Predict"):
         st.error("🚨 This message is SPAM")
     else:
         st.success("✅ This message is HAM (Not Spam)")
+
