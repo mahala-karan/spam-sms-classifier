@@ -1,3 +1,8 @@
+<img width="704" height="677" alt="Screenshot 2026-02-17 160310" src="https://github.com/user-attachments/assets/a72a767a-e1a7-4726-b264-9700625063ea" />
+<img width="979" height="661" alt="Screenshot 2026-02-17 160254" src="https://github.com/user-attachments/assets/1f9e085a-b588-43ec-bafa-ac9ada1e7edb" />
+<img width="1046" height="429" alt="Screenshot 2026-02-17 160238" src="https://github.com/user-attachments/assets/e7e543ee-e170-420f-87a0-2a794fbdae3b" />
+<img width="722" height="319" alt="Screenshot 2026-02-17 160226" src="https://github.com/user-attachments/assets/55217ff3-3f3d-4ad4-a38c-dbef5727d9a0" />
+<img width="966" height="699" alt="Screenshot 2026-02-17 160215" src="https://github.com/user-attachments/assets/e26e63d3-ba6d-49f3-9e3e-5932f9a72661" />
 # 📩 SMS Spam Detection Web App
 
 A Machine Learning based SMS Spam Detection system that classifies messages as Spam or Ham (Not Spam) using Natural Language Processing and Naive Bayes algorithm.
@@ -50,3 +55,4 @@ The application allows users to input any SMS message and instantly receive a Sp
   - Precision
   - Recall
   - F1-score
+
